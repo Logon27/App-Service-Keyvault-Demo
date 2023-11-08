@@ -22,17 +22,17 @@ A simple working keyvault example setup for debugging more complex infrastructur
 
 Hit the app service endpoint and you should see **loganisawesome**
 
-## Compiling the program
+## Compiling The Program
 
 Pretty straight forward...  
 `mvn package`
 
-## Deploying the jar
+## Deploying The Jar
 
 Open a terminal in the target folder and run (substituting your values)...  
 `az webapp deploy --resource-group ResourceGroup --name AppName --src-path ./demo-0.0.1-SNAPSHOT.jar --type jar --clean true`
 
-## After deploying
+## After Deploying
 
 ### Hit the app service endpoint
 ![img.png](img.png)
